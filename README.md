@@ -13,8 +13,8 @@
 ## Environment File (.env)
 - Configure the following environment variables on a .env in the package root:
   - Mnemonic - Deployment Owner(s) BIP-32 Mnemonic phrase
-  - Lottery Participant Entry Fee in ETH
-  - Owner Fee in ETH
+  - Lottery Participant Entry Fee in Wei
+  - Owner Fee in Wei
 
 ## Compile & migrate (Deploy) Contracts
 - `yarn deploy` (Default network: Kovan Ethereum Testnet)
