@@ -1,7 +1,7 @@
-# lottery
+# Lottery
 ### On-chain Lottery Smart with Random Number VRF Consumer using ChainLink VRF
 
-[Documentation]()
+[Documentation](https://ipfs.io/ipfs/QmPJTrZzyPFt3HhMg8umtPGyq4PY3dvz96zUo8RUJ6YbbP)
 
 ## Setup
 - `yarn`
