@@ -6,8 +6,12 @@
 import * as hre from "hardhat";
 import chalk from "chalk";
 
-const entryFee = process.env.ENTRYFEE;
-const ownerFee = process.env.OWNERFEE;
+const entryFee = process.env.ENTRYFEE || 1000; // defaut 1000 wei
+const ownerFee = process.env.OWNERFEE || 500; // default 500 wei
+
+if (entryFee < ownerFee) {
+  throw new Error("Entry Fee must be greater than Owner Fee!");
+}
 
 /**
  * RandomNumberGenerator
