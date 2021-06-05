@@ -49,20 +49,13 @@ const main = async () => {
   );
 
   /**
-   * deploy StMaster and link
-   *    - CcyLib
-   *    - TokenLib
-   *    - LedgerLib
-   *    - TransferLib
-   *    - SpotFeeLib
-   *    - Erc20Lib
-   *    - LoadLib
+   * deploy Lottery contract
    */
 
   console.log(`\nDeploying ${chalk.yellowBright.bold(`Lottery`)}
-Player entry fee      : ${chalk.magenta(entryFee)}
-Owner fee             : ${chalk.magenta(ownerFee)}
-VRF consumer address  : ${chalk.magenta(randomNumberGenerator.address)}
+Player entry fee         : ${chalk.magenta(entryFee)}
+Owner fee                : ${chalk.magenta(ownerFee)}
+Random Number Generator  : ${chalk.magenta(randomNumberGenerator.address)}
   `);
 
   const Lottery = await hre.ethers.getContractFactory("Lottery");
