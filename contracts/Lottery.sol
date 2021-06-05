@@ -90,10 +90,9 @@ contract Lottery is Ownable {
 		emit NumberRequested(randomNumberRequestId);
 	}
 
-	/// @dev Resets the lottery
+	/// @dev Rolls over the lottery
 	function rollover() public onlyOwner isState(LotteryState.Finished) {
 		//rollover new lottery
-		_changeState(LotteryState.Open);
 	}
 
 	/// @dev Winning ticket number is drawn to announce the winner and lottery comes to an end
