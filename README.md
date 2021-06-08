@@ -1,4 +1,8 @@
 # Lottery
+
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+![Prerequisite](https://img.shields.io/badge/node-%3E%3D10.0-blue.svg)
+
 ### On-chain Lottery smart contract with Random Number VRF Consumer using ChainLink VRF
 
 [Documentation](https://ipfs.io/ipfs/QmPJTrZzyPFt3HhMg8umtPGyq4PY3dvz96zUo8RUJ6YbbP)
